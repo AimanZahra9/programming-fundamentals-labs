@@ -1,0 +1,4 @@
+int units;
+float mass;
+double weight;
+weight = mass * units;
