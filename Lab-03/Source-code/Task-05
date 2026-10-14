@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int qty = 10;
+    int salesReps = 4;
+    double unitsEach;
+
+    // Integer division wali galat line:
+    // unitsEach = qty / salesReps; // 2 ayega
+
+    // Correct line with type cast:
+    unitsEach = static_cast<double>(qty) / salesReps;
+
+    cout << "unitsEach = " << unitsEach << endl; // 2.5 ayega
+    return 0;
+}
