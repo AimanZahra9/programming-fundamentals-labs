@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age;
+    double pay;
+    char section;
+
+    // Single cin statement to read all three variables
+    cin >> age >> pay >> section;
+
+    // Optional: to show it works
+    cout << "Age: " << age << endl;
+    cout << "Pay: " << pay << endl;
+    cout << "Section: " << section << endl;
+
+    return 0;
+}
