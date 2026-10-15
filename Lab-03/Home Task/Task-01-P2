@@ -1,0 +1,5 @@
+1. void main() is wrong, it should be int main()
+2. cin >> number1, number2; - comma operator is not allowed here, correct is cin >> number1 >> number2;
+3. quotient = float<static_cast>{number1} / number2; - wrong type casting syntax, correct is static_cast<float>(number1) / number2;
+4. Missing semicolon ; after cout << quotient
+5. Missing return 0;
