@@ -1,0 +1,7 @@
+1. Missing header #include <iostream>
+2. void main() is wrong, it should be int main()
+3. Cin << number1; - 'Cin' is case-sensitive error and operator << is wrong, correct is cin >> number1;
+4. cin << number2; - wrong operator, should be cin >> number2;
+5. number1 + number2 = sum; - invalid assignment, lvalue should be on left, correct is sum = number1 + number2;
+6. cout "The sum..." - missing insertion operator << after cout
+7. Missing semicolon ; at the end of cout line
