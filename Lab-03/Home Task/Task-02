@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Step 1: Store values in five variables
+    int var1 = 28;
+    int var2 = 32;
+    int var3 = 37;
+    int var4 = 24;
+    int var5 = 33;
+
+    // Step 2: Calculate sum and store in sum variable
+    int sum = var1 + var2 + var3 + var4 + var5;
+
+    // Step 3: Divide sum by 5 to get average
+    double average = static_cast<double>(sum) / 5;
+
+    // Step 4: Display average
+    cout << "Sum = " << sum << endl;
+    cout << "Average = " << average << endl;
+
+    return 0;
+}
